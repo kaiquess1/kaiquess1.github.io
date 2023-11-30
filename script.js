@@ -9,9 +9,9 @@ window.addEventListener("scroll", function(){
     /*let aqui = window.document.querySelector('#boa')*/
     header.classList.toggle('rolagem', window.scrollY > 0)
     apresenta.classList.toggle('cinza', window.scrollY > 1)
-    sumir.classList.toggle('sumiu', window.scrollY > 99)
+    sumir.classList.toggle('sumiu', window.scrollY > 199)
     efeitoSeta.classList.toggle('cinzento', window.scrollY > 1)
-    setaa.classList.toggle('sumindo', window.scrollY > 99)
+    setaa.classList.toggle('sumindo', window.scrollY > 199)
 
 })
 

@@ -21,9 +21,8 @@ body{
     transition: 0.2s;
     
 }
-#menu{
+.menu{
   visibility: hidden;
-  display: none;
 }
 
 header{
@@ -277,18 +276,39 @@ footer{
 }
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1024px) {
   .nav{
     display: none;
   }
   .logo{
-    width: 100%;
+    align-items: center;
   }
  .menu{
-    display:block;
+    visibility: visible;
+  
  }
- /* .apresentacao{
-    font-size: 2em;
-    text-align: center;
-  }*/
+ .apresentacao{
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10rem;
+
+ }
+ .mb-5,.txtProjetos{
+  display: none;
+ }
+
+ .apresentacao.cinza{
+  font-size: 1.9rem;
+  
+ }
+ .card{
+  margin-top: 4rem;
+  display:flex;
+  justify-content: flex-end;
+ }
+
+ .card-title{
+  font-size: 0.8rem;
+
+ }
 }
