@@ -252,6 +252,7 @@ header.rolagem a, header.rolagem p{
   font-family: 'Montserrat', sans-serif;
   color: #A88B4C;
   text-align:center;
+  
 }
 
 .contatotxt{
@@ -268,7 +269,7 @@ header.rolagem a, header.rolagem p{
 }
 footer{
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1em;
   color: #A88B4C;
   font-family: 'Montserrat', sans-serif;
   padding-top: 9%;
@@ -285,12 +286,12 @@ footer{
   }
  .menu{
     visibility: visible;
-  
+    
  }
  .apresentacao{
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 9rem;
 
  }
  .mb-5,.txtProjetos{
@@ -298,7 +299,7 @@ footer{
  }
 
  .apresentacao.cinza{
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   
  }
  .card{
